@@ -1,3 +1,4 @@
+// @ts-ignore
 new Vue( {
     el: '#app',
     data () {
@@ -7,7 +8,8 @@ new Vue( {
     },
     methods: {
         requestAPI () {
-            axios.get( 'http://localhost/php-ajax-dischi/database/api.php' )
+            // @ts-ignore
+            axios.get( './database/api.php' )
                 .then( res => {
                     this.rispostaAPI = res.data.response;
                 } )
