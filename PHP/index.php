@@ -13,7 +13,7 @@ include __DIR__ . '/../database/api.php';
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/M6Irinel/Framkcss@fe19a446685bc7be1640b8e44a566588f68cdbc7/Framkcss-light.css">
 
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="../assets-global/css/style.css">
 </head>
 
 <body class="reset flex f-column">
