@@ -1,5 +1,6 @@
 <?php
-$api = [
+header('Content-type: application/json');
+echo json_encode( [
     "success" => true,
     "response" => [
         [
@@ -73,5 +74,4 @@ $api = [
             "year" => "1987"
         ]
     ]
-];
-var_dump($api);
+] );
