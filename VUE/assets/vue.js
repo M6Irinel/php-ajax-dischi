@@ -9,7 +9,7 @@ new Vue( {
     methods: {
         requestAPI () {
             // @ts-ignore
-            axios.get( 'http://localhost/php-ajax-dischi/database/response-api.php' )
+            axios.get( '../database/response-api.php' )
                 .then( res => {
                     this.rispostaAPI = res.data.response;
                 } )
