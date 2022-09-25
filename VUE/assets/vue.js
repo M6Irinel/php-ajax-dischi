@@ -4,7 +4,7 @@ import './components/header.js';
 import './components/main.js';
 
 new Vue( {
-    el: '#app',
+    el: '#vue',
 
     template: `
         <div>
