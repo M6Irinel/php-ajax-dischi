@@ -39,7 +39,7 @@ include __DIR__ . '/../database/api.php';
                 <div>
                     <ul class="p-3 p-0-sm row-10-sm row-md row-10-xl gap-30">
                         <?php foreach ($response as $v) { ?>
-                            <li class="g-col-5-sm g-col-4-md g-col-3-lg g-col-2-xl t-center p-3 flex f-column scale-H transition-all duration-2 rounded-2-H ease-in">
+                            <li class="g-col-5-sm g-col-4-md g-col-3-lg g-col-2-xl t-center p-3 flex f-column scale-sm-H transition-all duration-2 rounded-2-H ease-in mb-7 mb-0-sm">
 
                                 <div class="h-50 mb-3 f-col-6">
                                     <img class="fluid-img d-block obj-cover" src="<?= $v['poster'] ?>" alt="<?= $v['title'] ?>">
